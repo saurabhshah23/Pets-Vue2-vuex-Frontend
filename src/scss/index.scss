@@ -1,0 +1,12 @@
+// import all other scss files here in a systematic order
+// separate directories can be created for same if number of files increase.
+
+// libraries
+
+// base / global styles
+@import "base/variables"; // while importing, _ is not required.
+@import "base/global";
+
+// components
+@import "components/home";
+@import "components/about";
